@@ -1,14 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-// import PrimeVue from 'primevue/config';
+import VueScreen from 'vue-screen';
+
+Vue.use(VueScreen);
 
 import ToastService from 'primevue/toastservice';
 Vue.use(ToastService);
-
-
-// Vue.use(PrimeVue);
-
-
 
 Vue.config.productionTip = false
 
